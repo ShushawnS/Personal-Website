@@ -1,0 +1,9 @@
+.landingpage {
+    width: 100%;
+    height: calc(100vh - 70px);
+    top: 70px;
+    scroll-snap-align: start; 
+
+    background-color: #252525;
+    color: white;
+}
