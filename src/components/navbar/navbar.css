@@ -23,18 +23,30 @@
 .navbar-logo {
     order: 2;
     flex-grow: 1;
-} 
+}  
 
-img {
-    margin-top: 1%;
-    height: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column wrap; 
+    height: 70px;
+    justify-content: center !important;
+}
+
+Button {
+    margin-top: 1% !important;
+    width: 30%;
+    color: cornsilk !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+Button:hover {
+    background-color: #252525 !important;
+    color: cornsilk !important;
+    transition: .5s;
 }
      
-
-
 .navbar-section-right {
     display: flex;
     justify-content: space-evenly;

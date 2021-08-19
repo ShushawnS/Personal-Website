@@ -1,5 +1,6 @@
 import "./navbar.css";
-import WebsiteLogo from "./Website Logo.png";
+import Pdf from "./Website Logo.png";
+import { Button } from "@material-ui/core";
 
 function NavBar() {
 
@@ -8,16 +9,17 @@ function NavBar() {
 
             <section className="navbar-section-left"> 
 
-                <a href="/" className="tab" >Home</a>
+                <a href="/" className="tab" >About</a>
                 <a href="#experiences" className="tab" >Experiences</a>
 
             </section>
 
-
+            
             <section className="navbar-logo">
 
-                <a href="/" className="logo">
-                    <img src={WebsiteLogo} alt=""></img>
+                <a href = {Pdf} target = "_blank" className="logo">
+                    <Button variant="contained" size="large" color="secondary"><b>Resume</b></Button>
+                    {/*<img src={WebsiteLogo} alt=""></img>*/}
                 </a> 
                 
             </section>

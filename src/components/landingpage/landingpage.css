@@ -3,7 +3,98 @@
     height: calc(100vh - 70px);
     top: 70px;
     scroll-snap-align: start; 
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif !important;
+    display: flex;
+    flex-direction: column;
 
     background-color: #252525;
     color: white;
+} 
+
+.landingpage-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.landingpage-left {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    flex-grow: 2;
+    padding-left: 17vw;
+} 
+
+.landingpage-right {
+    display: flex;
+    padding-top: 30vh;
+    padding-right: 17vw;
+}  
+
+.text {
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif !important;
+    margin-top: 3% !important;
+    color: cornsilk !important;
+    font-weight: 600 !important;
+    
+} 
+
+.name {
+    font-weight: 700 !important;
+} 
+
+.qualities {
+    font-weight: 700 !important;
+    font-style: italic;
 }
+
+img {
+    border-radius: 40px;
+    max-width: 100%;
+    margin-left: 30px;
+    border: 5px solid cornsilk;
+
+} 
+
+.linkButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 2%;
+}  
+
+.githubButton {
+    background-color: #71a758 !important;
+    color: cornsilk !important;
+} 
+
+.MuiButton-containedPrimary:hover {
+    background-color: #252525 !important;
+} 
+
+.MuiSvgIcon-fontSizeSmall {
+    font-size: 1rem !important;
+}
+
+.lButton:hover {
+    background-color: #252525 !important;
+    color: cornsilk !important;
+    transition: .5s;
+}
+
+hr {
+    color: cornflowerblue;
+    width: 100%
+} 
+
+.landingpage-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80;
+}
+
