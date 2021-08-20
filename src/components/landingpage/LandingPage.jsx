@@ -21,7 +21,7 @@ function LandingPage() {
                     <div className="linkButton">
                         <Button variant="contained" size="large" color="secondary" className="lButton" href="mailto:s62saha@waterloo.ca" ><ContactMailIcon fontSize="small" /><b>&nbsp;Email</b></Button>
                         <Button variant="contained" size="large" color="primary" classname="linkedinButton lButton" href="https://www.linkedin.com/in/shushawn-saha/" ><LinkedInIcon fontSize="small"/><b>&nbsp;Linkedin</b></Button>
-                        <Button variant="contained" size="large" className="githubButton lButton" href="https://github.com/ShushawnS" ><GitHubIcon fontSize="small" /><b>&nbsp;Github</b></Button> 
+                        <Button variant="contained " size="large" className="githubButton lButton" href="https://github.com/ShushawnS" ><GitHubIcon fontSize="small" /><b>&nbsp;Github</b></Button> 
                     </div>
 
                 </section>  
