@@ -43,6 +43,7 @@
 
 .name {
     font-weight: 700 !important;
+    overflow: hidden;
 } 
 
 .qualities {
@@ -93,8 +94,22 @@ hr {
 
 .landingpage-bottom {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80;
-}
+    flex: 1 1 auto;
+    align-self: center;
+    align-content: flex-end;
+    margin-top: 10vh;
+    height: 80px !important;
+} 
 
+.Typewriter__wrapper {
+    font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif !important;
+    margin-top: 3% !important;
+    color: skyblue !important;
+    font-weight: 600 !important;
+    font-size: larger;
+} 
+
+.MuiSvgIcon-fontSizeLarge {
+    color: cornsilk !important;
+    font-size: 100px !important;
+}

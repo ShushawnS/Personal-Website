@@ -1,5 +1,6 @@
 import "./landingpage.css";
 import { Typography, Button } from "@material-ui/core";
+import Typewriter from 'typewriter-effect';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
@@ -15,7 +16,18 @@ function LandingPage() {
 
                     <Typography variant="button" className="text">Hey 👋, my name is ...</Typography>
                     <Typography variant="h1" className="text name">Shushawn Saha. </Typography>
-                    <Typography variant="h4" className="text qualities">I am: a coder.</Typography>
+                    <Typewriter 
+                        options={{
+                            strings: [
+                                    "I am: a coder",
+                                    "I am: a developer",
+                                    "I am: an innovator",
+                                    "I am: always learning",
+                            ],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    /> 
                     <hr></hr>
                     <Typography variant="body1" className="text">1A Systems Design Engineering Student @uWaterloo 🏫. | Seeking Winter '22 Internships</Typography>
                     <div className="linkButton">
@@ -34,7 +46,7 @@ function LandingPage() {
 
             <div className="landingpage-bottom">
                 <section className="icon">
-                    <ExpandMoreIcon fontSize="large" />
+                    <a href="#experiences" ><ExpandMoreIcon fontSize="large" /></a>
                 </section>
                 
             </div>
