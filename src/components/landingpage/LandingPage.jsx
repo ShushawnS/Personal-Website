@@ -39,7 +39,7 @@ function LandingPage() {
                 </section>  
 
                 <section className="landingpage-right"> 
-                    <img src={Shushawn} alt=""></img>
+                    <img src={Shushawn} alt="" className="shushawnAnimated" />
                 </section> 
 
             </div>

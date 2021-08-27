@@ -6,6 +6,7 @@
     font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif !important;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
     background-color: #252525;
     color: white;
@@ -14,12 +15,14 @@
 .landingpage-top {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 } 
 
 .landingpage-left {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     margin-top: 10%;
@@ -29,6 +32,7 @@
 
 .landingpage-right {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 30vh;
     padding-right: 17vw;
 }  
@@ -51,7 +55,7 @@
     font-style: italic;
 }
 
-img {
+.shushawnAnimated {
     border-radius: 40px;
     max-width: 100%;
     margin-left: 30px;

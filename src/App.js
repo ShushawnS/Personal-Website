@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/navbar/NavBar';
 import LandingPage from './components/landingpage/LandingPage';
+import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Experieneces from './components/experiences/Experiences';
 import Contact from './components/contact/Contact';
@@ -14,7 +15,8 @@ function App() {
 
       <div className="sections">
         
-        <LandingPage />  
+        <LandingPage /> 
+        <About />  
         <Projects />  
         <Experieneces />  
         <Contact />  
