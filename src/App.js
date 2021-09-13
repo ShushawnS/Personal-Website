@@ -17,9 +17,11 @@ function App() {
         
         <LandingPage /> 
         <About />  
+        {/*
         <Projects />  
         <Experieneces />  
         <Contact />  
+        */}
 
       </div>
 

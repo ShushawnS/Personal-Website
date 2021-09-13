@@ -17,7 +17,7 @@
 
 .about-top {
     align-self: flex-start;
-    margin-left: 17vw;
+    margin-left: 10vw;
     margin-top: 5%;
 } 
 
@@ -27,8 +27,8 @@
     flex-wrap: nowrap;
     align-items: center; 
     justify-content: center;
-    margin-left: 17vw; 
-    margin-right: 17vw;
+    margin-left: 10vw; 
+    margin-right: 10vw;
     flex: 2 0 50%; 
 
 } 

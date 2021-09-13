@@ -9,8 +9,12 @@ function NavBar() {
 
             <section className="navbar-section-left"> 
 
+                {/*
                 <a href="#about" className="tab" >About</a>
                 <a href="#projects" className="tab" >Projects</a>
+                */} 
+
+                <a href="" className="tab" >Home</a>
                 
 
             </section>
@@ -26,9 +30,13 @@ function NavBar() {
             </section>
 
             <section className="navbar-section-right"> 
-            
+                
+                {/*
                 <a href="#experiences" className="tab" >Experiences</a>
                 <a href="#contact" className="tab">Contact</a>
+                */}  
+
+                <a href="#about" className="tab" >About</a>
 
             </section>
 

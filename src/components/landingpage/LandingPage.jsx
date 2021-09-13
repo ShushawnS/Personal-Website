@@ -46,7 +46,7 @@ function LandingPage() {
 
             <div className="landingpage-bottom">
                 <section className="icon">
-                    <a href="#experiences" ><ExpandMoreIcon fontSize="large" /></a>
+                    <a href="#about" ><ExpandMoreIcon fontSize="large" /></a>
                 </section>
                 
             </div>

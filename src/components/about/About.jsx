@@ -30,7 +30,7 @@ function About() {
                             <ol>
                                 <li><Typography gutterBottom="true" display="inline" color="secondary" variant='overline'>LANGUAGES -</Typography> C, Python, Java, Javascript, PHP, HTML/CSS</li>
                                 <li><Typography gutterBottom="true" display="inline" color="secondary" variant='overline'>TECHNOLOGIES -</Typography> React.js, MySQL, jQuery, Bootstrap, AJAX</li> 
-                                <li><Typography gutterBottom="true" display="inline" color="secondary" variant='overline'>TOOLS -</Typography> git, VsCode</li>
+                                <li><Typography gutterBottom="true" display="inline" color="secondary" variant='overline'>TOOLS -</Typography> Git, Vs Code</li>
                             </ol>
 
                         </Typography> 
