@@ -1,5 +1,5 @@
 import "./navbar.css";
-import Pdf from "./Website Logo.png";
+import Pdf from "./Shushawn Saha Resume.pdf";
 import { Button } from "@material-ui/core";
 
 function NavBar() {
