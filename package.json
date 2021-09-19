@@ -15,7 +15,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2",
-    "homepage": "https://ShushawnS.github.io/Personal-Website"
+    "homepage": "https://shushawns.github.io/Personal-Website/"
   },
   "scripts": {
     "start": "react-scripts start",
