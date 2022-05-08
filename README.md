@@ -1,7 +1,9 @@
 # Personal Website
 
 ### About 
-I used building my personal website as an introduction to learn about react and it's respective components - hooks, componenets, state management. This work is very much a proof of concept and a work in progress. Check out my [WCSS Peer Evaluator](https://github.com/ShushawnS/WCSS-Peer-Eval) for a full end-to-end web-application!
+I used building my personal website as an introduction to learn about react and it's respective components - hooks, componenets, state management. This work is very much a proof of concept and a work in progress. 
+
+Check out my [WCSS Peer Evaluator](https://github.com/ShushawnS/WCSS-Peer-Eval) for a full end-to-end web-application!
 
 ### Tech Stack 
 React.Js, JavaScript
